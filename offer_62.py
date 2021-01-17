@@ -7,10 +7,10 @@ class Solution:
         #     return (_m + x) % _n
         # return f(n, m)
 
-        # ret = 0
-        # for i in range(2, n + 1):
-        #     ret = (ret + m) % i
-        # return ret
+        ret = 0
+        for i in range(2, n + 1):
+            ret = (ret + m) % i
+        return ret
 
 
 if __name__ == '__main__':
